@@ -1,158 +1,154 @@
 /* GLOBAL */
+
 .block{
-padding: 50px;
-}
-.block:hover{
-  background: rgba(0,0,0,0.5)
-}
-h1{
-  font-size: 60px;
-  margin-bottom: 49px;
-}
-.img{
-  width:200px;
-  height:200px;
-  background:teal;
-}
-h2{
-  font-size: 30px ;
-  margin-bottom:18px;
-  padding:18px;
-  text-align: center
-}
-li{
-  font-size: 20px;
-  margin-bottom: 18px
   padding: 20px;
 }
-h3{
-  font size: 24px;
-  margin-bottom: 18px;
+.card{
+  background: url("../res/pink.jpg")
 }
-p{
-  font-size: 16px;
-}
-/* Name */
-.name{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background: rgb(68,81,98);
+.person{
+  background: url("../res/teal.jpg");
+  height: 250px;
+  width: 150px;
   color: white;
-  padding: 50px;
 }
-
-.name .img {
-  height: 213px;
-  width: 470px;
+.title{
+  text-align: center;
+}
+h2{
+  font-size: 38px;
+}
+h3{
+  font-size: 20px;
+}
+/* header */
+.header .nav{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-items: end;
+  grid-gap: 150px;
+}
+h1{
+  border: 2px solid black;
+  width: 100px;
+}
+.headerLogo{
+  font-size: 1.1em;
+  color: teal;
+}
+.header{
+  background: rgba(0, 0, 100, 0.05);
+}
+.header h1{
+  font-size: 24px;
+}
+.nav img{
+  width: 21px;
+  height:30px;
+}
+.header h2{
+  font-size: 45px;
+  text-align: center
+}
+.header button{
+height: 53px;
+width: 232px;
+}
+.shopno img{
+width: 69px;
+height: 84px;
 }
 /* About */
 .about{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding:55px ;
-  margin-top: 10px;
+   background: rgba(0, 0, 50, 0.05);
+   font-size: 38px;
+   text-align: center
 }
-.about h2{
-  text-align: start;
+.about p{
+  font-size: 18px;
 }
-.about .img{
-  height: 245px;
-  width: 430px;
-}
-/* Dignity */
-.dignity{
-  background: rgb(180,180,180);
-  color:white;
-  padding: 50px ;
-}
-.dignity .cardList{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 35px 18px;
-}
-.dignity .card{
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-column-gap: 10px;
-}
-.dignity .img{
-  height: 32px;
-  width: 32px;
-}
-/* Scrinshots */
-.scrinshots{
-  padding: 55px;
-  margin-top: 50px
-}
-.scrinshots .cardList{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 35px 18px;
-}
-.scrinshots .card{
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-column-gap: 10px;
-}
-.scrinshots img{
-  width: 200px;
-  height: 150px;
-}
-/* Review */
 
-.reviews p{
-  font-size: 14px;
+.about img{
+  width: 390px;
+  height: 483;
 }
-.reviews .cardList{
+.about .dignity{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 25px 30px;
+  grid-gap: 150px;
 }
-.reviews .card{
+/* Works */
+.works p{
+  font-size: 17px;
+}
+.works img{
+  width: 360;
+  height: 355;
+}
+.imgList{
   display: grid;
-  grid-template-columns: auto 1fr;
-  grid-gap: 35px 18px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 18px 15px;
 }
-.reviews .img{
-  width: 76px;
-  height: 76px;
-  border-radius: 50%;
+/* Services */
+.services .cardList{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px 15px;
 }
-.reviews{
-  background: rgb(190,190,190);
+.services h3{
+  font-size: 20px;
 }
-/* Buy */
-.buy h1{
-  font-size: 30px;
+.services p{
+  font-size: 16px;
 }
-.buy .cardList{
+/* Team */
+.team p{
+  font-size: 17px;
+}
+.team .personList{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
-  align-items: end;
-  color: white;
+  grid-gap: 14px 16px;
 }
-.buy .card{
-  background: #445162;
+.team img{
+  width: 375px;
+  height: 441px;
   text-align: center;
 }
-.buy h3{
-  font-size: 24px;
+.team link{
+  width: 103px;
+  height: 23px;
 }
-.buy p{
-  font-size: 40px;
-  background: white;
-  color:  #445162
+/* Say */
+
+.say p{
+  font-size: 17px;
 }
-.buy ol{
-    text-align: start;
+.say .personInfo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 150px;
 }
-.buy li{
-  margin-bottom: 13px; 
+.say img{
+  width: 315px;
+  height: 413px;
 }
-.buy button{
-  width: 100%;
+.say text{
+  font-size: 38px;
 }
-.buy .text{
-  padding: 20px;
+.say p{
+  font-size: 17px;
+}
+.say button{
+  width: 52px;
+  height: 52px;
+}
+.say text{
+  font-size: 15px;
+}
+.say img{
+  width: 452px;
+  height: 255px;
 }
